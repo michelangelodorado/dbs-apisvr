@@ -1,0 +1,58 @@
+[
+  {
+    "DEPNO": "644687",
+    "allowed_users": ["nw.jeffrey_d", "nw.james_d", "nw.mike_d"],
+    "allowed_types": ["L1_RO", "L2_RW"],
+    "time_range": {
+      "start": "2026-03-20T06:00:00Z",
+      "end": "2026-03-22T06:00:00Z"
+    },
+    "allowed_systems": [
+      {"ip": "10.1.10.5", "port": 80},
+      {"ip": "10.1.10.8", "port": 80},
+      {"ip": "10.1.10.9", "port": 80}
+    ]
+  },
+  {
+    "DEPNO": "644688",
+    "allowed_users": ["nw.jeffrey_d_m", "nw.mike_d"],
+    "allowed_types": ["L1_RO"],
+    "time_range": {
+      "start": "2026-03-25T00:00:00Z",
+      "end": "2026-03-26T00:00:00Z"
+    },
+    "allowed_systems": [
+      {"ip": "10.1.10.5", "port": 80},
+      {"ip": "10.1.10.8", "port": 80},
+      {"ip": "10.1.10.9", "port": 80}
+    ]
+  },
+  {
+    "DEPNO": "700100",
+    "allowed_users": ["nw.jeffrey_d", "nw.mike_d"],
+    "allowed_types": ["L2_RW", "L3_FULL"],
+    "time_range": {
+      "start": "2026-04-01T08:00:00Z",
+      "end": "2026-04-01T20:00:00Z"
+    },
+    "allowed_systems": [
+      {"ip": "10.1.10.5", "port": 80},
+      {"ip": "10.1.10.8", "port": 80},
+      {"ip": "10.1.10.9", "port": 80}
+    ]
+  },
+  {
+    "DEPNO": "700200",
+    "allowed_users": ["nw.doe_a"],
+    "allowed_types": ["L1_RO", "L2_RW", "L3_FULL"],
+    "time_range": {
+      "start": "2026-04-10T12:00:00Z",
+      "end": "2026-04-11T12:00:00Z"
+    },
+    "allowed_systems": [
+      {"ip": "10.1.10.5", "port": 80},
+      {"ip": "10.1.10.8", "port": 80},
+      {"ip": "10.1.10.9", "port": 80}
+    ]
+  }
+]
